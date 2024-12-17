@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: blueviolet;
+            border:10px solid black;
+            width:500px;
+            height:400px;
+            margin-left:190px;
+            margin-top:70px;
+            padding:20px;
+        }
+        label{
+            font-size:1.5em;
+            margin:20px;
+        }
+        input{
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="Name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" value=""><br>
+        <label for="AGE">AGE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="age" value=""><br>
+        <label for="MobileNumber">PhNumber</label>&nbsp;&nbsp;&nbsp;
+        <input type="number" name="MobileNumber" value=""><br>
+        <label for="address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea row="2"></textarea><br>
+        <label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="male">male<br>
+        <label>Language</label>&nbsp;&nbsp;
+       <input type="checkbox" name="Language" value="English">English
+       <input type="checkbox" name="Language" value="Tmil">Tamil
+       <input type="checkbox" name="Language" value="Hindi">Hindi
+       <br>
+       <label>Qualification</label>
+       <select>
+        <option>choose</option>
+        <option>B.sc</option>
+        <option>M.sc</option>
+        <option>B.tech</option>
+        <option>BE</option>
+        <option>ME</option>
+        <option>M.sc</option>
+
+       </select><br>
+       <label>DOB</label>
+       <input type="datetime-local" name="date" value="">
+       <input type="submit" value="Register">
+    </form>
+</body>
+</html>
